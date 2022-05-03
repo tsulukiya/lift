@@ -1,8 +1,11 @@
 package com.dataox;
 
+import com.dataox.controller.LiftController;
+
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+        LiftController liftController = new LiftController();
+        liftController.run();
     }
 }
